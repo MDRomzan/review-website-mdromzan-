@@ -1,0 +1,12 @@
+.notNumber{
+    font-size: 7rem;
+    
+    font-style: italic;
+}
+.notText{
+    font-size:5rem;
+    color:rgb(240, 80, 80);
+}
+.l-lik{
+    text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.course-design{
+    border:1px solid gray;
+    padding:10px 10px;
+    border-radius:10px ;
+    
+}
+
+.about-b {
+    background-color: #d67fe7;
+    outline: none;
+    border: none;
+    margin: 20px;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+}

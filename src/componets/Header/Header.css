@@ -1,0 +1,35 @@
+.banner{
+    background-image:url("https://image.freepik.com/free-vector/isometric-online-education-concept_52683-8896.jpg"),
+    linear-gradient(#03000c80, rgba(143, 135, 139, 0.5)); 
+
+
+    height:auto;
+    width:100%;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.title {
+    color: rgb(247, 232, 243);
+    font-weight: bold;
+    font-size: 59px;
+    margin: 20px;
+}
+.dec{
+    color:rgba(29, 6, 6, 0.603);
+}
+.design{
+    color:rgb(221, 236, 9);
+}
+.about-btn {
+    background-color: #ff0505;
+    outline: none;
+    border: none;
+    margin: 20px;
+    padding: 17px 34px;
+    color: white;
+    border-radius:10px ;
+}

@@ -1,9 +1,22 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faEnvelopeOpenText,
+  faBlenderPhone,
+  faSearchLocation
+
+} from '@fortawesome/free-solid-svg-icons'
+
 import "./Contact.css"
 import ReactDOM from 'react-dom'
 
 
 const Contact = () => {
+  const element = < FontAwesomeIcon icon = {
+        faEnvelopeOpenText
+  }
+  />
+
     return (
         <div>
             <h2 className="text-center">This is Our Contact us</h2>
@@ -15,6 +28,7 @@ const Contact = () => {
                      E-mail
                       < hr/>
                 </h2>
+                    <h1 className="text-center">{element}</h1>
                 <p className="text-center">
                     mdromjan483@gmail.com
                 </p>
@@ -26,6 +40,9 @@ const Contact = () => {
                  Phone
                  < hr/>
                 </h2>
+                <h1 className="text-center">
+                   <FontAwesomeIcon icon = {faBlenderPhone}/>
+                </h1>
                 <p className="text-center">
                     
                         +8801786299934
@@ -39,6 +56,9 @@ const Contact = () => {
                       Address
                       <hr/>
                 </h2>
+                <h1 className="text-center">
+                   <FontAwesomeIcon icon = {faSearchLocation}/>
+                </h1>
                 <p className="text-center">
                     Gulsan #01
                 </p>

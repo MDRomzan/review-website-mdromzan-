@@ -1,4 +1,14 @@
 import React from 'react';
+import {
+  FontAwesomeIcon
+} from '@fortawesome/react-fontawesome'
+import {
+  faEnvelopeOpenText,
+  faBlenderPhone,
+  faSearchLocation,
+  
+
+} from '@fortawesome/free-solid-svg-icons'
 import "./Footer.css"
 import ReactDom from "react-dom";
 
@@ -14,17 +24,15 @@ const Footer = () => {
                 <h1>Best Online Course</h1>
                 <div className="icons-container d-flex text-center ">
                   <div className="icon">
-                   
+                    <FontAwesomeIcon icon = {faBlenderPhone}/>
                   </div>
                   <div className="icon">
-                   
+                    <FontAwesomeIcon icon = {faSearchLocation}/>
                   </div>
                   <div className="icon">
-
+                     <FontAwesomeIcon icon = {faEnvelopeOpenText}/> 
                   </div>
-                  <div className="icon">
-                   
-                  </div>
+                 
                 </div>
                 <p className="mt-4 ">
                   <small>

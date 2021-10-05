@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Display.css"
 const Display = (props) => {
-    console.log(props.home)
+    // console.log(props.home)
     const{couresName,img,price,description}=props.home
     return (
             <div className="col-lg-6 design-home shadow-lg">

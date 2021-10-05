@@ -3,6 +3,9 @@
     border-radius:20px ;
     padding:10px;
 }
+.design-home:hover{
+    background-color: rgb(212, 233, 245);
+}
 .style-text{
     color:rgb(82, 77, 77);
 }

@@ -2,7 +2,20 @@
     border:1px solid gray;
     padding:10px 10px;
     border-radius:10px ;
+    max-height:700px ;
     
+}
+
+.course-design:hover{
+   background-color: #9bdaf3;
+    /* transform: skew(20deg); */
+    /* transform: rotate(30deg);
+    */
+    transform-origin: 20% 40%;
+    
+     transform: scale(1.10);
+
+ 
 }
 
 .about-b {

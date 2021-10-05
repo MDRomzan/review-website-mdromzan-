@@ -13,5 +13,7 @@
 
 
     .items:hover {
-        color: rgb(156, 238, 3);
+        background-color: rgb(250, 240, 240);
+        color: rgb(164, 236, 29);
+        border-radius:5px ;
     }

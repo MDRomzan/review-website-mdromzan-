@@ -12,6 +12,11 @@ const Courses = () => {
    console.log(courses)
     return (
         <div>
+             <h1 className=" text-warning text-center">
+                Our all Courses
+
+            </h1>
+            <hr/> 
             <div className="row  gx-5 gy-5 mx-3 p-3">
                 {
                courses.map(course =><Course course={course} key={course.id}>
